@@ -1,0 +1,1421 @@
+{
+  "generatedAt": "2026-06-14",
+  "buckets": {
+    "800-1200": {
+      "samples": 50,
+      "topicStats": {
+        "greedy": {
+          "avg": 44,
+          "median": 22,
+          "p75": 52,
+          "p90": 95
+        },
+        "math": {
+          "avg": 45,
+          "median": 27,
+          "p75": 58,
+          "p90": 97
+        },
+        "strings": {
+          "avg": 11,
+          "median": 6,
+          "p75": 16,
+          "p90": 23
+        },
+        "number theory": {
+          "avg": 9,
+          "median": 5,
+          "p75": 9,
+          "p90": 22
+        },
+        "constructive algorithms": {
+          "avg": 18,
+          "median": 9,
+          "p75": 24,
+          "p90": 41
+        },
+        "sortings": {
+          "avg": 14,
+          "median": 7,
+          "p75": 18,
+          "p90": 31
+        },
+        "brute force": {
+          "avg": 22,
+          "median": 13,
+          "p75": 28,
+          "p90": 51
+        },
+        "implementation": {
+          "avg": 35,
+          "median": 15,
+          "p75": 47,
+          "p90": 81
+        },
+        "data structures": {
+          "avg": 5,
+          "median": 2,
+          "p75": 6,
+          "p90": 13
+        },
+        "combinatorics": {
+          "avg": 2,
+          "median": 1,
+          "p75": 3,
+          "p90": 6
+        },
+        "games": {
+          "avg": 3,
+          "median": 2,
+          "p75": 4,
+          "p90": 7
+        },
+        "two pointers": {
+          "avg": 5,
+          "median": 2,
+          "p75": 7,
+          "p90": 14
+        },
+        "dp": {
+          "avg": 9,
+          "median": 3,
+          "p75": 11,
+          "p90": 18
+        },
+        "binary search": {
+          "avg": 7,
+          "median": 4,
+          "p75": 9,
+          "p90": 16
+        },
+        "dfs and similar": {
+          "avg": 2,
+          "median": 0,
+          "p75": 2,
+          "p90": 5
+        },
+        "trees": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 3
+        },
+        "bitmasks": {
+          "avg": 4,
+          "median": 2,
+          "p75": 5,
+          "p90": 10
+        },
+        "divide and conquer": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "graphs": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 4
+        },
+        "shortest paths": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 1
+        },
+        "hashing": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 2
+        },
+        "ternary search": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "geometry": {
+          "avg": 2,
+          "median": 1,
+          "p75": 2,
+          "p90": 4
+        },
+        "chinese remainder theorem": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "graph matchings": {
+          "avg": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1
+        },
+        "*special": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 2
+        },
+        "dsu": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 2
+        },
+        "expression parsing": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "schedules": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "fft": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "flows": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0
+        },
+        "matrices": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0
+        },
+        "interactive": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "probabilities": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "meet-in-the-middle": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0
+        }
+      },
+      "ratingStats": {
+        "avgSolved": 105,
+        "avgDifficulty": 958
+      }
+    },
+    "1200-1600": {
+      "samples": 50,
+      "topicStats": {
+        "constructive algorithms": {
+          "avg": 58,
+          "median": 40,
+          "p75": 80,
+          "p90": 153
+        },
+        "greedy": {
+          "avg": 131,
+          "median": 85,
+          "p75": 199,
+          "p90": 343
+        },
+        "sortings": {
+          "avg": 41,
+          "median": 21,
+          "p75": 62,
+          "p90": 91
+        },
+        "brute force": {
+          "avg": 55,
+          "median": 35,
+          "p75": 85,
+          "p90": 134
+        },
+        "math": {
+          "avg": 114,
+          "median": 77,
+          "p75": 164,
+          "p90": 286
+        },
+        "strings": {
+          "avg": 24,
+          "median": 16,
+          "p75": 36,
+          "p90": 62
+        },
+        "dp": {
+          "avg": 37,
+          "median": 21,
+          "p75": 52,
+          "p90": 76
+        },
+        "number theory": {
+          "avg": 27,
+          "median": 13,
+          "p75": 41,
+          "p90": 67
+        },
+        "matrices": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 2
+        },
+        "bitmasks": {
+          "avg": 15,
+          "median": 11,
+          "p75": 25,
+          "p90": 35
+        },
+        "dfs and similar": {
+          "avg": 11,
+          "median": 4,
+          "p75": 17,
+          "p90": 30
+        },
+        "dsu": {
+          "avg": 5,
+          "median": 2,
+          "p75": 7,
+          "p90": 15
+        },
+        "implementation": {
+          "avg": 77,
+          "median": 43,
+          "p75": 109,
+          "p90": 186
+        },
+        "two pointers": {
+          "avg": 21,
+          "median": 10,
+          "p75": 36,
+          "p90": 52
+        },
+        "combinatorics": {
+          "avg": 10,
+          "median": 4,
+          "p75": 14,
+          "p90": 25
+        },
+        "geometry": {
+          "avg": 5,
+          "median": 3,
+          "p75": 7,
+          "p90": 12
+        },
+        "binary search": {
+          "avg": 29,
+          "median": 16,
+          "p75": 49,
+          "p90": 68
+        },
+        "data structures": {
+          "avg": 26,
+          "median": 14,
+          "p75": 39,
+          "p90": 65
+        },
+        "graphs": {
+          "avg": 10,
+          "median": 4,
+          "p75": 15,
+          "p90": 28
+        },
+        "games": {
+          "avg": 9,
+          "median": 7,
+          "p75": 13,
+          "p90": 21
+        },
+        "*special": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 3
+        },
+        "hashing": {
+          "avg": 2,
+          "median": 1,
+          "p75": 4,
+          "p90": 5
+        },
+        "expression parsing": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 1
+        },
+        "probabilities": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 3
+        },
+        "interactive": {
+          "avg": 3,
+          "median": 1,
+          "p75": 3,
+          "p90": 10
+        },
+        "trees": {
+          "avg": 7,
+          "median": 3,
+          "p75": 11,
+          "p90": 16
+        },
+        "shortest paths": {
+          "avg": 3,
+          "median": 1,
+          "p75": 4,
+          "p90": 9
+        },
+        "divide and conquer": {
+          "avg": 2,
+          "median": 1,
+          "p75": 3,
+          "p90": 5
+        },
+        "string suffix structures": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "graph matchings": {
+          "avg": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 4
+        },
+        "ternary search": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 2
+        },
+        "fft": {
+          "avg": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1
+        },
+        "schedules": {
+          "avg": 1,
+          "median": 0,
+          "p75": 2,
+          "p90": 3
+        },
+        "chinese remainder theorem": {
+          "avg": 0,
+          "median": 0,
+          "p75": 1,
+          "p90": 1
+        },
+        "communication": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0
+        },
+        "2-sat": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        },
+        "flows": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 2
+        },
+        "meet-in-the-middle": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 0
+        }
+      },
+      "ratingStats": {
+        "avgSolved": 277,
+        "avgDifficulty": 1103
+      }
+    },
+    "1600-2000": {
+      "samples": 50,
+      "topicStats": {
+        "constructive algorithms": {
+          "avg": 99,
+          "median": 55,
+          "p75": 140,
+          "p90": 224
+        },
+        "dfs and similar": {
+          "avg": 34,
+          "median": 14,
+          "p75": 48,
+          "p90": 63
+        },
+        "dp": {
+          "avg": 81,
+          "median": 47,
+          "p75": 110,
+          "p90": 164
+        },
+        "greedy": {
+          "avg": 196,
+          "median": 114,
+          "p75": 277,
+          "p90": 424
+        },
+        "binary search": {
+          "avg": 56,
+          "median": 30,
+          "p75": 78,
+          "p90": 117
+        },
+        "math": {
+          "avg": 164,
+          "median": 95,
+          "p75": 227,
+          "p90": 386
+        },
+        "two pointers": {
+          "avg": 33,
+          "median": 20,
+          "p75": 42,
+          "p90": 69
+        },
+        "sortings": {
+          "avg": 59,
+          "median": 38,
+          "p75": 82,
+          "p90": 129
+        },
+        "implementation": {
+          "avg": 110,
+          "median": 57,
+          "p75": 159,
+          "p90": 250
+        },
+        "brute force": {
+          "avg": 86,
+          "median": 49,
+          "p75": 119,
+          "p90": 198
+        },
+        "games": {
+          "avg": 16,
+          "median": 12,
+          "p75": 22,
+          "p90": 38
+        },
+        "combinatorics": {
+          "avg": 24,
+          "median": 12,
+          "p75": 35,
+          "p90": 51
+        },
+        "trees": {
+          "avg": 25,
+          "median": 11,
+          "p75": 32,
+          "p90": 58
+        },
+        "strings": {
+          "avg": 33,
+          "median": 18,
+          "p75": 48,
+          "p90": 77
+        },
+        "bitmasks": {
+          "avg": 31,
+          "median": 19,
+          "p75": 42,
+          "p90": 67
+        },
+        "chinese remainder theorem": {
+          "avg": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 2
+        },
+        "number theory": {
+          "avg": 40,
+          "median": 25,
+          "p75": 54,
+          "p90": 95
+        },
+        "dsu": {
+          "avg": 14,
+          "median": 7,
+          "p75": 18,
+          "p90": 30
+        },
+        "graphs": {
+          "avg": 32,
+          "median": 14,
+          "p75": 44,
+          "p90": 71
+        },
+        "interactive": {
+          "avg": 10,
+          "median": 5,
+          "p75": 13,
+          "p90": 21
+        },
+        "graph matchings": {
+          "avg": 3,
+          "median": 1,
+          "p75": 4,
+          "p90": 7
+        },
+        "data structures": {
+          "avg": 63,
+          "median": 32,
+          "p75": 89,
+          "p90": 133
+        },
+        "divide and conquer": {
+          "avg": 10,
+          "median": 6,
+          "p75": 14,
+          "p90": 25
+        },
+        "shortest paths": {
+          "avg": 9,
+          "median": 3,
+          "p75": 12,
+          "p90": 20
+        },
+        "geometry": {
+          "avg": 9,
+          "median": 4,
+          "p75": 14,
+          "p90": 23
+        },
+        "probabilities": {
+          "avg": 4,
+          "median": 2,
+          "p75": 5,
+          "p90": 9
+        },
+        "hashing": {
+          "avg": 6,
+          "median": 2,
+          "p75": 7,
+          "p90": 14
+        },
+        "string suffix structures": {
+          "avg": 2,
+          "median": 1,
+          "p75": 2,
+          "p90": 5
+        },
+        "ternary search": {
+          "avg": 3,
+          "median": 1,
+          "p75": 4,
+          "p90": 6
+        },
+        "2-sat": {
+          "avg": 1,
+          "median": 0,
+          "p75": 2,
+          "p90": 2
+        },
+        "*special": {
+          "avg": 3,
+          "median": 1,
+          "p75": 5,
+          "p90": 11
+        },
+        "matrices": {
+          "avg": 3,
+          "median": 1,
+          "p75": 3,
+          "p90": 8
+        },
+        "fft": {
+          "avg": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 3
+        },
+        "schedules": {
+          "avg": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 4
+        },
+        "expression parsing": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 2
+        },
+        "flows": {
+          "avg": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 3
+        },
+        "communication": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 2
+        },
+        "meet-in-the-middle": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        }
+      },
+      "ratingStats": {
+        "avgSolved": 450,
+        "avgDifficulty": 1322
+      }
+    },
+    "2000-2400": {
+      "samples": 50,
+      "topicStats": {
+        "brute force": {
+          "avg": 131,
+          "median": 91,
+          "p75": 159,
+          "p90": 310
+        },
+        "combinatorics": {
+          "avg": 51,
+          "median": 28,
+          "p75": 69,
+          "p90": 134
+        },
+        "dfs and similar": {
+          "avg": 62,
+          "median": 38,
+          "p75": 74,
+          "p90": 138
+        },
+        "divide and conquer": {
+          "avg": 20,
+          "median": 13,
+          "p75": 27,
+          "p90": 61
+        },
+        "math": {
+          "avg": 246,
+          "median": 168,
+          "p75": 294,
+          "p90": 558
+        },
+        "data structures": {
+          "avg": 112,
+          "median": 65,
+          "p75": 128,
+          "p90": 260
+        },
+        "dsu": {
+          "avg": 25,
+          "median": 15,
+          "p75": 33,
+          "p90": 62
+        },
+        "greedy": {
+          "avg": 280,
+          "median": 201,
+          "p75": 340,
+          "p90": 585
+        },
+        "implementation": {
+          "avg": 166,
+          "median": 113,
+          "p75": 195,
+          "p90": 330
+        },
+        "two pointers": {
+          "avg": 48,
+          "median": 32,
+          "p75": 64,
+          "p90": 103
+        },
+        "bitmasks": {
+          "avg": 51,
+          "median": 33,
+          "p75": 63,
+          "p90": 112
+        },
+        "dp": {
+          "avg": 152,
+          "median": 97,
+          "p75": 182,
+          "p90": 338
+        },
+        "number theory": {
+          "avg": 65,
+          "median": 40,
+          "p75": 66,
+          "p90": 142
+        },
+        "constructive algorithms": {
+          "avg": 152,
+          "median": 104,
+          "p75": 191,
+          "p90": 327
+        },
+        "sortings": {
+          "avg": 86,
+          "median": 60,
+          "p75": 104,
+          "p90": 195
+        },
+        "binary search": {
+          "avg": 85,
+          "median": 54,
+          "p75": 110,
+          "p90": 193
+        },
+        "graphs": {
+          "avg": 60,
+          "median": 34,
+          "p75": 69,
+          "p90": 145
+        },
+        "trees": {
+          "avg": 51,
+          "median": 30,
+          "p75": 70,
+          "p90": 131
+        },
+        "strings": {
+          "avg": 51,
+          "median": 34,
+          "p75": 66,
+          "p90": 106
+        },
+        "games": {
+          "avg": 24,
+          "median": 14,
+          "p75": 29,
+          "p90": 57
+        },
+        "interactive": {
+          "avg": 19,
+          "median": 10,
+          "p75": 30,
+          "p90": 49
+        },
+        "probabilities": {
+          "avg": 12,
+          "median": 6,
+          "p75": 16,
+          "p90": 30
+        },
+        "ternary search": {
+          "avg": 5,
+          "median": 3,
+          "p75": 7,
+          "p90": 12
+        },
+        "communication": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 4
+        },
+        "geometry": {
+          "avg": 14,
+          "median": 9,
+          "p75": 19,
+          "p90": 40
+        },
+        "graph matchings": {
+          "avg": 5,
+          "median": 4,
+          "p75": 8,
+          "p90": 13
+        },
+        "hashing": {
+          "avg": 12,
+          "median": 8,
+          "p75": 16,
+          "p90": 29
+        },
+        "fft": {
+          "avg": 3,
+          "median": 2,
+          "p75": 5,
+          "p90": 7
+        },
+        "shortest paths": {
+          "avg": 15,
+          "median": 9,
+          "p75": 18,
+          "p90": 41
+        },
+        "2-sat": {
+          "avg": 2,
+          "median": 1,
+          "p75": 3,
+          "p90": 6
+        },
+        "string suffix structures": {
+          "avg": 4,
+          "median": 2,
+          "p75": 6,
+          "p90": 11
+        },
+        "flows": {
+          "avg": 5,
+          "median": 3,
+          "p75": 7,
+          "p90": 13
+        },
+        "*special": {
+          "avg": 6,
+          "median": 3,
+          "p75": 8,
+          "p90": 14
+        },
+        "meet-in-the-middle": {
+          "avg": 1,
+          "median": 0,
+          "p75": 2,
+          "p90": 4
+        },
+        "matrices": {
+          "avg": 5,
+          "median": 3,
+          "p75": 6,
+          "p90": 12
+        },
+        "chinese remainder theorem": {
+          "avg": 2,
+          "median": 1,
+          "p75": 3,
+          "p90": 5
+        },
+        "schedules": {
+          "avg": 1,
+          "median": 1,
+          "p75": 2,
+          "p90": 4
+        },
+        "expression parsing": {
+          "avg": 1,
+          "median": 0,
+          "p75": 2,
+          "p90": 2
+        }
+      },
+      "ratingStats": {
+        "avgSolved": 748,
+        "avgDifficulty": 1524
+      }
+    },
+    "2400-3000": {
+      "samples": 50,
+      "topicStats": {
+        "binary search": {
+          "avg": 175,
+          "median": 134,
+          "p75": 222,
+          "p90": 422
+        },
+        "bitmasks": {
+          "avg": 112,
+          "median": 84,
+          "p75": 138,
+          "p90": 242
+        },
+        "brute force": {
+          "avg": 268,
+          "median": 201,
+          "p75": 316,
+          "p90": 690
+        },
+        "data structures": {
+          "avg": 265,
+          "median": 190,
+          "p75": 326,
+          "p90": 592
+        },
+        "dfs and similar": {
+          "avg": 137,
+          "median": 88,
+          "p75": 170,
+          "p90": 330
+        },
+        "implementation": {
+          "avg": 323,
+          "median": 215,
+          "p75": 347,
+          "p90": 906
+        },
+        "trees": {
+          "avg": 123,
+          "median": 86,
+          "p75": 149,
+          "p90": 265
+        },
+        "two pointers": {
+          "avg": 95,
+          "median": 67,
+          "p75": 116,
+          "p90": 244
+        },
+        "combinatorics": {
+          "avg": 128,
+          "median": 96,
+          "p75": 163,
+          "p90": 282
+        },
+        "dp": {
+          "avg": 331,
+          "median": 255,
+          "p75": 400,
+          "p90": 751
+        },
+        "fft": {
+          "avg": 13,
+          "median": 9,
+          "p75": 17,
+          "p90": 30
+        },
+        "math": {
+          "avg": 500,
+          "median": 357,
+          "p75": 565,
+          "p90": 1236
+        },
+        "number theory": {
+          "avg": 124,
+          "median": 83,
+          "p75": 140,
+          "p90": 298
+        },
+        "constructive algorithms": {
+          "avg": 316,
+          "median": 228,
+          "p75": 406,
+          "p90": 809
+        },
+        "games": {
+          "avg": 47,
+          "median": 36,
+          "p75": 58,
+          "p90": 107
+        },
+        "greedy": {
+          "avg": 542,
+          "median": 396,
+          "p75": 624,
+          "p90": 1429
+        },
+        "strings": {
+          "avg": 97,
+          "median": 73,
+          "p75": 105,
+          "p90": 262
+        },
+        "graphs": {
+          "avg": 145,
+          "median": 93,
+          "p75": 181,
+          "p90": 347
+        },
+        "shortest paths": {
+          "avg": 35,
+          "median": 21,
+          "p75": 44,
+          "p90": 90
+        },
+        "sortings": {
+          "avg": 173,
+          "median": 125,
+          "p75": 194,
+          "p90": 457
+        },
+        "dsu": {
+          "avg": 58,
+          "median": 37,
+          "p75": 70,
+          "p90": 130
+        },
+        "divide and conquer": {
+          "avg": 52,
+          "median": 42,
+          "p75": 66,
+          "p90": 106
+        },
+        "chinese remainder theorem": {
+          "avg": 4,
+          "median": 3,
+          "p75": 6,
+          "p90": 9
+        },
+        "interactive": {
+          "avg": 45,
+          "median": 32,
+          "p75": 59,
+          "p90": 94
+        },
+        "geometry": {
+          "avg": 37,
+          "median": 25,
+          "p75": 46,
+          "p90": 86
+        },
+        "probabilities": {
+          "avg": 34,
+          "median": 27,
+          "p75": 45,
+          "p90": 78
+        },
+        "communication": {
+          "avg": 1,
+          "median": 0,
+          "p75": 1,
+          "p90": 5
+        },
+        "*special": {
+          "avg": 24,
+          "median": 5,
+          "p75": 18,
+          "p90": 49
+        },
+        "graph matchings": {
+          "avg": 13,
+          "median": 10,
+          "p75": 16,
+          "p90": 26
+        },
+        "matrices": {
+          "avg": 16,
+          "median": 10,
+          "p75": 21,
+          "p90": 36
+        },
+        "ternary search": {
+          "avg": 10,
+          "median": 7,
+          "p75": 12,
+          "p90": 26
+        },
+        "string suffix structures": {
+          "avg": 11,
+          "median": 8,
+          "p75": 14,
+          "p90": 23
+        },
+        "expression parsing": {
+          "avg": 2,
+          "median": 1,
+          "p75": 3,
+          "p90": 5
+        },
+        "flows": {
+          "avg": 15,
+          "median": 11,
+          "p75": 19,
+          "p90": 30
+        },
+        "hashing": {
+          "avg": 30,
+          "median": 20,
+          "p75": 39,
+          "p90": 64
+        },
+        "schedules": {
+          "avg": 2,
+          "median": 1,
+          "p75": 3,
+          "p90": 5
+        },
+        "2-sat": {
+          "avg": 6,
+          "median": 4,
+          "p75": 8,
+          "p90": 13
+        },
+        "meet-in-the-middle": {
+          "avg": 4,
+          "median": 2,
+          "p75": 6,
+          "p90": 10
+        },
+        "*broken": {
+          "avg": 0,
+          "median": 0,
+          "p75": 0,
+          "p90": 1
+        }
+      },
+      "ratingStats": {
+        "avgSolved": 1543,
+        "avgDifficulty": 1789
+      }
+    },
+    "3000+": {
+      "samples": 18,
+      "topicStats": {
+        "binary search": {
+          "avg": 365,
+          "median": 307,
+          "p75": 370,
+          "p90": 668
+        },
+        "data structures": {
+          "avg": 572,
+          "median": 487,
+          "p75": 551,
+          "p90": 962
+        },
+        "dp": {
+          "avg": 732,
+          "median": 638,
+          "p75": 725,
+          "p90": 1230
+        },
+        "greedy": {
+          "avg": 1080,
+          "median": 958,
+          "p75": 1142,
+          "p90": 2013
+        },
+        "two pointers": {
+          "avg": 192,
+          "median": 157,
+          "p75": 194,
+          "p90": 373
+        },
+        "bitmasks": {
+          "avg": 225,
+          "median": 201,
+          "p75": 231,
+          "p90": 417
+        },
+        "combinatorics": {
+          "avg": 274,
+          "median": 243,
+          "p75": 291,
+          "p90": 477
+        },
+        "graphs": {
+          "avg": 347,
+          "median": 307,
+          "p75": 366,
+          "p90": 546
+        },
+        "trees": {
+          "avg": 284,
+          "median": 255,
+          "p75": 300,
+          "p90": 438
+        },
+        "constructive algorithms": {
+          "avg": 676,
+          "median": 608,
+          "p75": 759,
+          "p90": 1162
+        },
+        "math": {
+          "avg": 1029,
+          "median": 927,
+          "p75": 1106,
+          "p90": 1842
+        },
+        "brute force": {
+          "avg": 551,
+          "median": 475,
+          "p75": 573,
+          "p90": 1019
+        },
+        "dfs and similar": {
+          "avg": 300,
+          "median": 259,
+          "p75": 313,
+          "p90": 501
+        },
+        "divide and conquer": {
+          "avg": 109,
+          "median": 97,
+          "p75": 115,
+          "p90": 181
+        },
+        "dsu": {
+          "avg": 123,
+          "median": 109,
+          "p75": 129,
+          "p90": 213
+        },
+        "implementation": {
+          "avg": 723,
+          "median": 568,
+          "p75": 777,
+          "p90": 1227
+        },
+        "interactive": {
+          "avg": 102,
+          "median": 93,
+          "p75": 116,
+          "p90": 160
+        },
+        "sortings": {
+          "avg": 356,
+          "median": 319,
+          "p75": 370,
+          "p90": 647
+        },
+        "probabilities": {
+          "avg": 80,
+          "median": 71,
+          "p75": 85,
+          "p90": 124
+        },
+        "number theory": {
+          "avg": 255,
+          "median": 225,
+          "p75": 261,
+          "p90": 465
+        },
+        "games": {
+          "avg": 97,
+          "median": 85,
+          "p75": 113,
+          "p90": 172
+        },
+        "strings": {
+          "avg": 206,
+          "median": 173,
+          "p75": 191,
+          "p90": 370
+        },
+        "hashing": {
+          "avg": 66,
+          "median": 56,
+          "p75": 65,
+          "p90": 110
+        },
+        "geometry": {
+          "avg": 100,
+          "median": 81,
+          "p75": 108,
+          "p90": 151
+        },
+        "graph matchings": {
+          "avg": 33,
+          "median": 30,
+          "p75": 41,
+          "p90": 52
+        },
+        "matrices": {
+          "avg": 38,
+          "median": 32,
+          "p75": 41,
+          "p90": 54
+        },
+        "shortest paths": {
+          "avg": 82,
+          "median": 71,
+          "p75": 84,
+          "p90": 131
+        },
+        "*special": {
+          "avg": 88,
+          "median": 47,
+          "p75": 98,
+          "p90": 160
+        },
+        "fft": {
+          "avg": 34,
+          "median": 31,
+          "p75": 37,
+          "p90": 59
+        },
+        "flows": {
+          "avg": 41,
+          "median": 39,
+          "p75": 43,
+          "p90": 64
+        },
+        "2-sat": {
+          "avg": 13,
+          "median": 11,
+          "p75": 14,
+          "p90": 25
+        },
+        "schedules": {
+          "avg": 5,
+          "median": 4,
+          "p75": 6,
+          "p90": 8
+        },
+        "string suffix structures": {
+          "avg": 25,
+          "median": 20,
+          "p75": 28,
+          "p90": 38
+        },
+        "expression parsing": {
+          "avg": 6,
+          "median": 4,
+          "p75": 7,
+          "p90": 11
+        },
+        "ternary search": {
+          "avg": 21,
+          "median": 17,
+          "p75": 26,
+          "p90": 39
+        },
+        "chinese remainder theorem": {
+          "avg": 9,
+          "median": 8,
+          "p75": 10,
+          "p90": 13
+        },
+        "meet-in-the-middle": {
+          "avg": 12,
+          "median": 12,
+          "p75": 13,
+          "p90": 19
+        },
+        "communication": {
+          "avg": 2,
+          "median": 1,
+          "p75": 2,
+          "p90": 6
+        },
+        "*broken": {
+          "avg": 1,
+          "median": 1,
+          "p75": 1,
+          "p90": 1
+        }
+      },
+      "ratingStats": {
+        "avgSolved": 3336,
+        "avgDifficulty": 1919
+      }
+    }
+  }
+}

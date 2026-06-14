@@ -1,0 +1,56 @@
+# CoDNA AI Phase 2: Viral Engines Implemented
+
+We skipped the UI and focused heavily on the unique value proposition of CoDNA AI: The Compare Engine and the upgraded Analyze V2 Engine. These intelligence upgrades are now fully live.
+
+## 1. Upgrade: Analyze V2
+
+The `/analyze/:handle` endpoint is now significantly more intelligent and marketing-friendly:
+
+### Hero Summary Block
+The API now returns a top-level `summary` designed perfectly for a UI Hero section, computing `strengthCount`, `weaknessCount`, `dominantTopic`, `solvedProblems`, and an overall `contestExperience` rating.
+
+### Percentile-Driven Strengths
+Instead of random absolute ratios, the `StrengthEngine` now relies on a rigorous system:
+- **Elite**: Must be in the top 15% of your topics AND have > 50 solved problems.
+- **Strong**: Next 25% of topics AND > 20 solved.
+- **Developing**: Next 35% AND > 5 solved.
+
+### Viral DNA Archetypes
+We replaced the dry archetypes with highly shareable titles:
+- The Algorithmist
+- The Theorist
+- The Graph Wizard
+- The Marathon Grinder
+- The Speed Demon
+- The Specialist
+
+> [!TIP]  
+> When tested, `tourist` triggered **"The Marathon Grinder"** archetype due to an immense volume of unique problems solved (> 2500).
+
+## 2. New Feature: Compare Engine
+
+The `/compare/:user1/:user2` API is now live and generates the viral head-to-head comparison!
+
+When we ran `http://localhost:3000/compare/tourist/Benq`, the engine returned a spectacular breakdown:
+- **Winner Identification**: It correctly computes the overall winner based on tag-domination scores.
+- **Head-to-Head Categories**: It lists exactly who wins in `dp`, `graphs`, `geometry`, etc.
+- **The "Edge" Factor**: It isolates up to 5 topics where one user has a massive lead (> 20 problem delta) over the other.
+
+```json
+{
+  "winner": "Benq",
+  "score": {
+    "tourist": 4,
+    "Benq": 33
+  },
+  "edge": {
+    "tourist": ["*special"],
+    "Benq": ["Combinatorics", "DP", "Strings", "Binary Search", "Bitmasks"]
+  }
+}
+```
+
+## Next Step: Benchmark Dataset Builder
+
+> [!IMPORTANT]  
+> We are now ready to tackle the **Benchmark Dataset Builder**. As discussed, we need to build a script that collects users across 5 rating buckets to generate the authentic `tier-averages.json`. Once that dataset is built, we can wire up the Benchmark Engine API!

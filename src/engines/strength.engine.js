@@ -12,19 +12,17 @@ class StrengthEngine {
             return { elite, strong, developing, weak };
         }
 
-        const maxCount = sortedTags[0][1];
+        const totalTags = sortedTags.length;
 
-        sortedTags.forEach(([tag, count]) => {
-            const ratio = count / maxCount;
-            const entry = {
-                tag: formatTagName(tag),
-                count
-            };
-            if (ratio >= 0.6) {
+        sortedTags.forEach(([tag, count], index) => {
+            const percentile = (index / totalTags) * 100;
+            const entry = { tag: formatTagName(tag), count };
+
+            if (percentile <= 15 && count >= 50) {
                 elite.push(entry);
-            } else if (ratio >= 0.25) {
+            } else if (percentile <= 40 && count >= 20) {
                 strong.push(entry);
-            } else if (ratio >= 0.05) {
+            } else if (percentile <= 75 && count >= 5) {
                 developing.push(entry);
             } else {
                 weak.push(entry);
