@@ -1,14 +1,23 @@
 console.log("CoDNA AI Started");
 const axios = require("axios");
-const url = "https://codeforces.com/api/user.info?handles=tourist";
+const url = "https://codeforces.com/api/user.rating?handle=tourist";
 axios.get(url)
     .then(response => {
-        // console.log(response.data);
-        const user = response.data.result[0];
-        console.log("Handle: ", user.handle);
-        console.log("Rating: ", user.rating);
-        console.log("Max Rating: ", user.maxRating);
-        console.log("Rank: ", user.rank);
+        const contests = response.data.result;
+        const firstContest = contests[0];
+        const latestContest = contests[contests.length - 1];
+
+  console.log("First Contest Name:", firstContest.contestName);
+console.log("First Contest Rank:", firstContest.rank);
+
+console.log("Latest Contest Name:", latestContest.contestName);
+console.log("Latest Contest Rank:", latestContest.rank);
+console.log("Latest Contest Old Rating:", latestContest.oldRating);
+console.log("Latest Contest New Rating:", latestContest.newRating);
+
+console.log("Total Contests:", contests.length);
+        console.log("Total Contests:", response.data.result.length);
+
     })
     .catch(error => {
         console.log(error);
